@@ -1,5 +1,5 @@
 const mm = require('music-metadata')
-const uploadPlugin = require('../plugins/songUpload')
+const uploadPlugin = require('../plugins/songUpload.js')
 const md5 = require('md5')
 module.exports = async (query, request) => {
   let ext = 'mp3'
